@@ -92,9 +92,4 @@
   nav button {
     margin-left: auto;
   }
-  #avatar {
-    width: 2rem;
-    height: 2rem;
-    overflow: hidden;
-  }
 </style>
