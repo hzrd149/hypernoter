@@ -8,12 +8,11 @@ export const ndk = new NDKSvelte({
     "wss://relay.damus.io/",
     "wss://nostr.wine/",
     "wss://nos.lol/",
-    "wss://nostr-pub.wellorder.net/",
   ],
   cacheAdapter,
 });
 
-await ndk.connect();
+ndk.connect();
 
 if (import.meta.env.DEV) {
   //@ts-ignore
